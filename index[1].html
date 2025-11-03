@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SnackboxNM — Smart Vending, Simplified</title>
+  <meta name="description" content="SnackboxNM brings AI‑enabled smart vending to Santa Fe: healthier snacks, drinks, and essentials with tap‑to‑pay and real‑time analytics.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="/assets/logo.svg">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="container header">
+    <div class="brand">
+      <img src="/assets/logo.svg" alt="SnackboxNM logo">
+      <div class="brand-name">SNACKBOXNM</div>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#locations">Locations</a>
+      <a href="#partner">Partner</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Smart vending for busy places in Santa Fe.</h1>
+      <p>We place sleek, AI‑enabled snack &amp; drink machines with tap‑to‑pay, real‑time inventory, and curated, better‑for‑you options. Perfect for apartment communities, auto shops, offices, and transit hubs.</p>
+      <div>
+        <a class="cta" href="#partner">Partner with SnackboxNM</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2>About Snackbox</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>AI + Telemetry</h3>
+          <p>Remote monitoring, sales analytics, and smart planograms to keep best‑sellers stocked.</p>
+        </div>
+        <div class="card">
+          <h3>Frictionless Payments</h3>
+          <p>Tap‑to‑pay and cards out of the box. Bill acceptors available where needed.</p>
+        </div>
+        <div class="card">
+          <h3>Healthy‑leaning Mix</h3>
+          <p>Popular snacks and drinks balanced with better‑for‑you picks. OTC essentials on request.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="locations">
+      <h2>Locations</h2>
+      <p>We’re placing machines across Santa Fe. Want one at your site? Reach out below.</p>
+    </section>
+
+    <section class="section" id="partner">
+      <h2>Partner With Us</h2>
+      <p>Tell us about your location and we’ll get back within 1 business day.</p>
+      <form class="form" name="partner" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+        <input type="hidden" name="form-name" value="partner">
+        <p hidden>
+          <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
+        </p>
+        <label>
+          Location / Business Name
+          <input class="input" type="text" name="business" required>
+        </label>
+        <label>
+          Address (optional)
+          <input class="input" type="text" name="address">
+        </label>
+        <label>
+          Your Name
+          <input class="input" type="text" name="name" required>
+        </label>
+        <label>
+          Email
+          <input class="input" type="email" name="email" required>
+        </label>
+        <label>
+          Phone
+          <input class="input" type="tel" name="phone">
+        </label>
+        <label>
+          Notes
+          <textarea class="input" name="notes" rows="5" placeholder="Hours, foot traffic, preferred products, commission or no‑commission, etc."></textarea>
+        </label>
+        <button class="cta" type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p>Prefer email? We’ve got you.</p>
+      <p><a href="mailto:info@snackboxnm.com">info@snackboxnm.com</a></p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <div>© <span id="y"></span> SnackboxNM. All rights reserved.</div>
+    <div><small class="muted">Questions? Email <a href="mailto:info@snackboxnm.com">info@snackboxnm.com</a>.</small></div>
+    <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+  </footer>
+</body>
+</html>
