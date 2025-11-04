@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="192" viewBox="0 0 512 192">
+  <g>
+    <rect x="0" y="0" width="192" height="192" rx="28" ry="28" fill="#E50914"/>
+    <circle cx="164" cy="22" r="18" fill="#ffffff"/>
+    <circle cx="142" cy="34" r="14" fill="#ffffff"/>
+    <circle cx="168" cy="48" r="12" fill="#ffffff"/>
+    <circle cx="150" cy="60" r="10" fill="#ffffff"/>
+  </g>
+  <g transform="translate(210,122)">
+    <text x="0" y="0"
+      font-family="Inter, Arial Black, Arial, Helvetica, sans-serif"
+      font-weight="900"
+      font-size="72"
+      fill="#111111"
+      letter-spacing="2">SNACKBOX</text>
+  </g>
+</svg>
